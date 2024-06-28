@@ -1,0 +1,19 @@
+# Volpi: Capitani - Vert Capital
+
+# First install
+
+- You can install it using: `poetry install` - (Para instalar as dependências do projeto)
+- Run `poetry run python manage.py migrate` to create the database - (Para criar o BD)
+- Rum project with `poetry run python manage.py runserver`
+
+# Iniciar Zookeeper
+
+- Run with `bin/zookeeper-server-start.sh config/zookeeper.properties`
+
+# Iniciar Kafka
+
+- Run with `bin/kafka-server-start.sh config/server.properties`
+
+# Admin interface
+
+- Browse to `http://127.0.0.1:8000/admin/` to view the admin interface - (Para a Interface de utilização do admin)

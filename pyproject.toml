@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "desafio-capitani"
+version = "0.1.0"
+description = ""
+authors = ["allysonp23 <allysonpaulino23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.6"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.9"
+kafka-python = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
